@@ -63,3 +63,12 @@ Tämän jälkeen mietin, missä suljetut porttini ovat, joten testasin vielä ko
 
 ![SULJETTUPORTTI](https://user-images.githubusercontent.com/118457367/205056542-ddb6b595-5b95-447e-93b0-b5c1c4aa6ca1.jpg)
 
+Sitten avasin virtuaalikoneen ja kokeilin siellä ubuntulla etsiä lisää portteja komennolla ```ss -tl```, jolla saan etsittyä portit jotka ovat tilassa listening. Tässä yksi sellainen tcp portti:
+
+![linuxl](https://user-images.githubusercontent.com/118457367/205059255-474dc83a-d522-4be4-b639-81d4fba5395e.jpg)
+
+Yritin katsella vielä ```ss -tulpn``` komennolla suljettuja portteja, mutten löytänyt niitä. 
+
+Lähteet: https://github.com/sannnir/h5-Windows
+
+
