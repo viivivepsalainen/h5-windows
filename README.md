@@ -55,4 +55,11 @@ Kokeilin ensin windowsin powershellissä komennolla ```$ netstat -an``` mitä po
 
 Tuloksena oli portteja jotka olivat tilassa: listening, established ja time_wait. Eli minulla oli portteja (listening), joihin oli muodostettu yhteys, established - eli portteja joihin voisin muodostaa yhteyden/avoinna olevat sekä time_wait portteja, joka tarkoittaa ettei kummallakaan osapuolella ole dataa lähetettävänä, mutta kummatkin voisi silti vastaanottaa dataa. 
 
+Avoin portti:
+
+![AVOINPORTTI](https://user-images.githubusercontent.com/118457367/205056473-5f03a325-a3c5-40ee-a3e1-2558647c5883.jpg)
+
 Tämän jälkeen mietin, missä suljetut porttini ovat, joten testasin vielä komentoa ```$ netstat -ano```, ja sieltä löytyivätkin close_wait portit. 
+
+![SULJETTUPORTTI](https://user-images.githubusercontent.com/118457367/205056542-ddb6b595-5b95-447e-93b0-b5c1c4aa6ca1.jpg)
+
