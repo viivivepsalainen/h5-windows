@@ -13,6 +13,8 @@ Tämän jälkeen ongelmaksi muodostui se, etten muka ollut "administrator" omall
 
 Kuitenkin yritysten jälkeen onnistuin etenemään.
 
+ **tehtävä a) Hello Window Salt! Tee Windowsille SLS-tiedostoon Salt-tila, joka tekee tiedoston nimeltä "suolaikkuna.txt".**
+
 Ensin allaolevalla komennolla siirryin omaan latauskansiooni: 
 
 ![komento1](https://user-images.githubusercontent.com/118457367/204985725-689f6a3e-c76f-4b43-a6c3-0f320855cefe.jpg)
@@ -32,3 +34,13 @@ Näiden luomisen jälkeen kokeilen toimiiko:
 ![windowssucceed2](https://user-images.githubusercontent.com/118457367/205048642-cc99c267-c8ff-4a26-986d-fc6ea730f7b5.jpg)
 
 Toimi. 
+
+**tehtävä b) Ei vihkoa, ei kynää. Kerää Windows-koneen tekniset tiedot tekstitiedostoon. Vapaaehtoinen bonus: Saatko tiedot tallennettua myös json-muodossa?**
+
+Lähden etenemään sillä taktiikalla, että kerään koneesta tietoja grains.items -komennolla, jotka siirrän tekstitiedostoon.
+
+Eli periaatteessa laitoin vain allaolevan komennon:
+
+![tiedot](https://user-images.githubusercontent.com/118457367/205051367-2091c547-e78a-4461-bcff-8fb8d08a15bd.jpg)
+
+Jonka jälkeen tsekkasin vielä cat tiedotkoneesta.txt -komennolla, että onnistui. 
