@@ -44,3 +44,13 @@ Eli periaatteessa laitoin vain allaolevan komennon:
 ![tiedot](https://user-images.githubusercontent.com/118457367/205051367-2091c547-e78a-4461-bcff-8fb8d08a15bd.jpg)
 
 Jonka jälkeen tsekkasin vielä cat tiedotkoneesta.txt -komennolla, että onnistui. 
+
+Yritin myös katsella tuota bonusta aka json -tiedostona koneen tietojen tallentamista, mutta se ei oikein onnistunut, sillä en tiennyt mistä aloittaa tekemään. 
+
+**c) Kop kop. Onko TCP-portti auki vai kiinni? Näytä esimerkit portin kokeilusta Linuxilla ja Windowsilla. Näytä kummallakin käyttöjärjestelmällä ainakin yksi avoin ja yksi suljettu portti. (Kokeile tätä vain omaan koneeseesi. Vieraiden koneiden ja verkkojen porttiskannaaminen on kiellettyä. Yksittäisen portin testaavat komennot ovat suositeltavia, esim. nc, tnc)**
+
+Kokeilin komennolla $ netstat -an mitä portteja löytyy, ja niitähän löytyi jonkin verran:
+
+![tcpportit](https://user-images.githubusercontent.com/118457367/205054014-103fa1ef-81f0-4418-8a21-e30b8f1b24f3.jpg)
+
+Tuloksena oli portteja jotka olivat tilassa: listening, established ja time_wait. Eli minulla oli portteja (listening), joihin oli muodostettu yhteys, established - eli portteja joihin voisin muodostaa yhteyden/avoinna olevat sekä time_wait portteja, joka tarkoittaa ettei kummallakaan osapuolella ole dataa lähetettävänä, mutta kummatkin voisi silti vastaanottaa dataa. 
