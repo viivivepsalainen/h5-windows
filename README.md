@@ -23,3 +23,12 @@ Josta löysin ladatun tiedoston, jonka avasin allaolevalla komennolla:
 
 Tämän jälkeen tiedosto avautui, ja pääsin asettamaan esimerkiksi masterin ja minionin nimet, jonka jälkeen tiedosto lähti latautumaan. 
 
+Sen jälkeen siirryin salt kansioon (cd C:\salt\srv), jossa loin notepadiin suolaikkuna.txt sekä init.sls tiedoston, jotka näyttivät tältä: 
+
+![suolaikkunajainit](https://user-images.githubusercontent.com/118457367/205048461-2b925585-fd16-440b-aa93-9e7d71473b9e.jpg)
+
+Näiden luomisen jälkeen kokeilen toimiiko:
+
+![windowssucceed2](https://user-images.githubusercontent.com/118457367/205048642-cc99c267-c8ff-4a26-986d-fc6ea730f7b5.jpg)
+
+Toimi. 
